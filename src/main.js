@@ -2,9 +2,16 @@
 
 
 // 创建窗口时触发
+const fs = require("fs");
+const path = require("path");
+
 exports.onBrowserWindowCreated = (window) => {
-    // window 为 Electron 的 BrowserWindow 实例
-}
+    const jsCode = fs.readFileSync(path.join(__dirname, "IconInject.js"), "utf-8");
+    window.webContents.on("dom-ready", () => {
+        window.webContents.executeJavaScript(jsCode);
+    });
+};
+
 
 
 // 用户登录时触发

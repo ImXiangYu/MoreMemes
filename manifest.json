@@ -2,16 +2,16 @@
     "$schema": "https://cdn.jsdelivr.net/gh/LiteLoaderQQNT/LiteLoaderQQNT@latest/manifest-zh.schema.json",
     "manifest_version": 4,
     "type": "extension",
-    "name": "插件模板",
-    "slug": "plugin_template",
-    "description": "LiteLoaderQQNT 的插件模板",
+    "name": "MoreMemes",
+    "slug": "MoreMemes",
+    "description": "更大的表情包容量！",
     "version": "0.1.0",
     "icon": "./icon.png",
     "thumb": "./icon.svg",
     "authors": [
         {
-            "name": "LiteLoaderQQNT",
-            "link": "https://github.com/LiteLoaderQQNT"
+            "name": "香鱼Ayubass",
+            "link": "https://github.com/ImXiangYu"
         }
     ],
     "platform": [
@@ -25,11 +25,11 @@
         "preload": "./src/preload.js"
     },
     "repository": {
-        "repo": "LiteLoaderQQNT/Plugin-Template",
+        "repo": "ImXiangYu/MoreMemes",
         "branch": "main",
         "release": {
             "tag": "0.1.0",
-            "file": "Plugin-Template.zip"
+            "file": "MoreMemes.zip"
         }
     }
 }
